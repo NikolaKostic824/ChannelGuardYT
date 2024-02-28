@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  padding: 0;
+  background-color: #fff; /* White background for the body */
+}
+
+#container {
+  width: 300px; /* Fixed width for the container */
+  padding: 20px; /* Padding around the content */
+  border: 2px solid #ff0000; /* Red border for the container */
+}
+
+#container h2 {
+  font-size: 3em; /* Large font size for headings */
+}
+
+#container input {
+  width: calc(100% - 22px); /* Full width minus padding and border */
+  padding: 10px; /* Padding inside inputs */
+  margin-bottom: 10px; /* Space below inputs */
+  border: 1px solid #ccc; /* Light grey border for inputs */
+  border-radius: 4px; /* Rounded corners for inputs */
+}
+
+#container button {
+  width: 100%; /* Full width for buttons */
+  padding: 10px; /* Padding inside buttons */
+  background-color: #ff0000; /* Red background for buttons */
+  color: white; /* White text on buttons */
+  border: none; /* No border for buttons */
+  border-radius: 4px; /* Rounded corners for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin: 10px auto; /* Center buttons horizontally */
+}
+
+#container button:hover {
+  background-color: #d80000; /* Darker red on hover */
+}
+
+#container button:disabled {
+  background-color: #cccccc; /* Grey color for disabled button */
+  cursor: not-allowed; /* Cursor indicating the button is disabled */
+}
+
+#authorsList {
+  padding-inline-start: 0; /* Remove default list padding */
+}
+
+#authorsList li {
+  background-color: #fff; /* White background for list items */
+  border: 1px solid #ddd; /* Light grey border for list items */
+  border-radius: 4px; /* Rounded corners for list items */
+  padding: 8px 12px; /* Padding inside list items */
+  margin-bottom: 8px; /* Space between list items */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out content */
+  align-items: center; /* Align items vertically */
+}
+
+#authorsList li button {
+  background-color: #fff; /* Red color, adjust according to your logo */
+  color: white; /* White text on buttons */
+  border: none; /* No border for buttons */
+  border-radius: 4px; /* Rounded corners for buttons */
+  padding: 5px 10px; /* Padding inside buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 14px; /* Font size for button text */
+  width: 20%;
+}
+
+#authorsList li button:hover {
+  background-color: #fff;
+  border: 1px solid #ff0000; /* Darker shade for hover effect */
+}
+
+.error {
+  border: 2px solid red; /* Red border to highlight errors */
+}
