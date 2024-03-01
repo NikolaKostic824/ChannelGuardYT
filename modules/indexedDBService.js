@@ -22,7 +22,7 @@ const openDatabase = () => {
       return;
     }
 
-    const request = indexedDB.open("channelGuardDB", 1);
+    const request = indexedDB.open("channelGuardDB", 2);
 
     request.onupgradeneeded = (event) => {
       db = event.target.result;
